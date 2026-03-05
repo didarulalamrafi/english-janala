@@ -30,7 +30,7 @@ const displayLoadLevelWord = (words) => {
       <h3 class="font-bold text-2xl">${word.word}</h3>
       <p class="font-semibold">Meaning / Pronounciation</p>
       <div class="hind-siliguri text-2xl font-semibold">"${word.meaning} / ${word.pronunciation}"</div>
-      <div class="flex justify-between items-center mt-5">
+      <div class="flex justify-between items-center mt-3">
         <button class="btn bg-[#1A91FF20] hover:bg-[#1A91FF80]"><i class="fa-solid fa-circle-info"></i></button>
         <button class="btn bg-[#1A91FF20] hover:bg-[#1A91FF80]"><i class="fa-solid fa-volume-high"></i> </button>
       </div>
